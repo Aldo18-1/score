@@ -4,17 +4,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Control Scoreboard</title>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body class="control">
 
 <h2>Control de Marcador</h2>
 
-<input id="name1" placeholder="Equipo A">
-<input id="name2" placeholder="Equipo B">
+<label>Equipo A</label><br> <input id="name1" placeholder="Equipo A"><br><br>
+
+<label>Equipo B</label><br> <input id="name2" placeholder="Equipo B"><br><br>
+
 <button onclick="updateNames()">Actualizar nombres</button>
 
 <hr>
+
+<h3>Puntos</h3>
 
 <button onclick="scoreControl.addPoint(1)">+ Equipo A</button> <button onclick="scoreControl.removePoint(1)">- Equipo A</button>
 
@@ -24,7 +28,7 @@
 
 <br><br> <button onclick="scoreControl.reset()">Reset</button>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 <script>
 function updateNames(){
