@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Scoreboard OBS</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+margin-bottom: 30px;
+}
+
+.container {
+background: white;
+display: inline-block;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+a {
+display: block;
+margin: 15px 0;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+background: #1e90ff;
+color: white;
+border-radius: 6px;
+}
+
+a:hover {
+background: #187bcd;
+} </style>
+
+</head>
+<body>
+
+<h1>Scoreboard para OBS</h1>
+
+<div class="container">
+    <a href="overlay.html">Abrir Overlay (para OBS)</a>
+    <a href="control.html">Abrir Panel de Control</a>
+</div>
+
+</body>
+</html>
